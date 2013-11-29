@@ -10,22 +10,8 @@ import android.widget.ImageButton;
 
 public class MainActivity extends Activity {
 
-	MediaPlayer pumUm;
-	Button btn1; 
-	MediaPlayer pumDois;
-	Button btn2;
-	MediaPlayer pumTres;
-	Button btn3;
-	MediaPlayer pumQuatro;
-	Button btn4; 
-	MediaPlayer pumCinco; 
-	Button btn5;
-	MediaPlayer pumSeis;
-	Button btn6;
-	MediaPlayer pumSete;
-	Button btn7;
-	MediaPlayer pumOito;
-	Button btn8;
+	MediaPlayer pumUm, pumDois, pumTres, pumQuatro, pumCinco, pumSeis, pumSete,pumOito; 
+	Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8   ; 
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +29,6 @@ public class MainActivity extends Activity {
 			}
 		});
 
-		
 		// Sound - PumDois
 		pumDois = MediaPlayer.create(this, R.raw.sompum2);
 		btn2 = (Button) this.findViewById(R.id.btn2);
@@ -65,7 +50,6 @@ public class MainActivity extends Activity {
 				pumTres.start();
 			}
 		});
-
 
 		// Sound - PumQuatro
 		pumQuatro = MediaPlayer.create(this, R.raw.sompum4);
