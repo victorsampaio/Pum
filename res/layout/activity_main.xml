@@ -19,20 +19,80 @@
         android:id="@+id/imgBtnPum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_alignRight="@+id/textView1"
         android:layout_below="@+id/textView1"
-        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
         android:src="@drawable/ic_launcher" />
 
     <Button
-        android:id="@+id/btnPum"
+        android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageButton1"
-        android:layout_alignRight="@+id/imageButton1"
-        android:layout_below="@+id/imageButton1"
-        android:layout_marginTop="89dp"
-        android:text="pum" />
+        android:layout_below="@+id/imgBtnPum"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:text="Hi!" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn7"
+        android:layout_alignBottom="@+id/btn7"
+        android:layout_alignLeft="@+id/btn3"
+        android:text="Vixx" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn2"
+        android:layout_alignBottom="@+id/btn2"
+        android:layout_alignLeft="@+id/btn1"
+        android:text="Fum" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn7"
+        android:layout_marginTop="19dp"
+        android:layout_toLeftOf="@+id/imgBtnPum"
+        android:text="Uri" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn4"
+        android:layout_below="@+id/btn6"
+        android:layout_marginTop="17dp"
+        android:text="Iga" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn5"
+        android:layout_below="@+id/btn3"
+        android:layout_marginTop="21dp"
+        android:text="Eca" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn6"
+        android:layout_alignBottom="@+id/btn6"
+        android:layout_alignLeft="@+id/btn2"
+        android:text="Chii" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn8"
+        android:layout_alignBottom="@+id/btn8"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="Ops!" />
 
 </RelativeLayout>
